@@ -1,0 +1,4 @@
+1. What is MongoDB and how does it differ from traditional relational databases?
+Answer: MongoDB is a NoSQL, document-oriented database that stores data in flexible JSON-like documents (BSON). Unlike relational databases, it is schemaless, enabling dynamic data structures. It scales horizontally but lacks native joins and transactions (though recent versions support multi-document ACID transactions).
+
+2. Explain collections and documents in MongoDB.

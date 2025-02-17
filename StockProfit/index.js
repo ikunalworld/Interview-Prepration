@@ -17,21 +17,42 @@
 // Explanation: In this case, no transactions are done and the max profit = 0.
 
 
-function maxProfit(prices) {
-    let minPrice = Infinity;
-    let maxProfit = 0;
+// function maxProfit(prices) {
+//     let minPrice = Infinity;
+//     let maxProfit = 0;
 
-    for (let price of prices) {
-        minPrice = Math.min(minPrice, price);
-        maxProfit = Math.max(maxProfit, price - minPrice);
-    }
+//     for (let price of prices) {
+//         minPrice = Math.min(minPrice, price);
+//         maxProfit = Math.max(maxProfit, price - minPrice);
+//     }
 
-    return maxProfit;
-}
+//     return maxProfit;
+// }
 
 // Example usage:
-const prices1 = [7, 1, 5, 3, 6, 4];
-console.log(maxProfit(prices1)); // Output: 5
+// const prices1 = [7, 1, 5, 3, 6, 4];
+// const stringconvert = prices1.join("");
+// console.log(stringconvert);
+// console.log(stringconvert.split(""));
 
-const prices2 = [7, 6, 4, 3, 1];
-console.log(maxProfit(prices2)); // Output: 0
+
+// console.log(maxProfit(prices1)); // Output: 5
+
+// const prices2 = [7, 6, 4, 3, 1];
+// console.log(maxProfit(prices2)); // Output: 0
+
+const Datas = "Hekkoo KunaLL";
+
+NameD = Datas.split("");
+const datafromName = [];
+for(const data of NameD){
+    if(datafromName[data]){
+        datafromName[data]++;
+    }else{
+        datafromName[data]
+    }
+
+    return datafromName;
+}
+
+console.log(datafromName,"f");
